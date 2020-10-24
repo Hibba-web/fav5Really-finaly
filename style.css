@@ -1,0 +1,103 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    text-align: center;
+}
+
+.welcome {
+    background-color: orange;
+}
+
+.hobby {
+    background-color: yellow;
+}
+
+img {
+    border-radius: 50px;
+    width: 150px;
+    height: 150px;
+}
+
+h1 {
+    font-size: 60px;
+}
+
+p {
+    font-size: 16px;
+}
+
+h2 {
+    font-size: 25px;
+}
+
+.menu {
+    list-style: none;
+    position: fixed;
+    font-family: cursive;
+    float: right;
+    top: 10px;
+    right: 30px;
+    cursor: pointer;
+    color: black;
+}
+
+.links {
+    float: left;
+    color: #FFF;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    padding-left: 9px;
+    padding-right: 9px;
+    font-size: 20px;
+}
+
+.links a {
+  text-decoration:none;
+  color:black;
+}
+
+.links:hover {
+    background-color: red;
+  text-decoration:underline;
+}
+
+.inspire {
+    background-color: pink;
+}
+
+.research {
+    background-color: blue;
+}
+
+.underline {
+    height: 6px;
+    background-color: #000;
+    width: 70px;
+    margin: 8px auto;
+    margin-bottom:85px;
+}
+
+#PMSAW {
+    transition: transform .2s;
+    border:10px solid #AAAAAA;
+    width: 350px;
+    height: 350px;
+}
+
+#PMSAW:hover {
+    transform:scale(0.9)
+}
+
+#contact iframe {
+    width: 100%;
+}
+
+.contact_1 h3 {
+    display: inline;
+}
+
+.contact_1 a {
+    text-shadow: none;
+}
